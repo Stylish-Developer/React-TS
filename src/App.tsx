@@ -1,26 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+// -- STYLESHEETS
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// -- ROOT COMPONENT OF THIS APPLICATION
+const App = () => {
+  return(
+    <>
+      <h1 className='title'>React-TypeScript-Level2</h1>
+    </>
+  )
 }
 
 export default App;

@@ -4,6 +4,8 @@ import './App.css';
 import Person from './components/Person';
 import ClassComponent from './components/Clscomponent';
 import Product from './components/Product';
+import Enumconept from './components/Enumconcept';
+import { macProducts } from './components/Enumconcept';
 
 // -- ROOT COMPONENT OF THIS APPLICATION
 const App: FC = () => {
@@ -14,6 +16,7 @@ const App: FC = () => {
         <Person name="Gautham" age={25} email='gowthamsgobi@gmail.com' designation='software engineer' />
         <ClassComponent job="Software Engineer" />
         <Product />
+        <Enumconept model={macProducts.m2pro}/>
       </div>
     </>
   )

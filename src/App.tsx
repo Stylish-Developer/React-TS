@@ -1,11 +1,18 @@
+import { FC } from 'react';
 // -- STYLESHEETS
 import './App.css';
+import Person from './components/Person';
+import ClassComponent from './components/Clscomponent';
 
 // -- ROOT COMPONENT OF THIS APPLICATION
-const App = () => {
-  return(
+const App: FC = () => {
+  return (
     <>
-      <h1 className='title'>React-TypeScript-Level2</h1>
+      <div className='container'>
+        <h1 className='title'>React-TypeScript-Level2</h1>
+        <Person name="Gautham" age={25} email='gowthamsgobi@gmail.com' designation='software engineer' />
+        <ClassComponent job="Software Engineer" />
+      </div>
     </>
   )
 }

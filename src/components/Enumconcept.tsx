@@ -43,16 +43,16 @@ const Enumconept = (props: Props) => {
     }
 
     const handleClick = (product: string): void => {
-        alert(`Your order ${product} is placed succesfully`);
+        alert(`Your order ${product} is placed successfully`);
     }
 
     return (
         <>
             <h5>ENUM CONCEPT</h5>
             <div style={containerStyle}>
-                <button type="button" onClick={() => handleClick(macProducts.m1)}>{macProducts.m1}</button>
-                <button type="button" onClick={() => handleClick(macProducts.m2)}>{macProducts.m2}</button>
-                <button type="button" onClick={() => handleClick(macProducts.m2pro)}>{macProducts.m2pro}</button>
+                <button type="button" title="click to place your order" onClick={() => handleClick(macProducts.m1)}>{macProducts.m1}</button>
+                <button type="button" title="click to place your order" onClick={() => handleClick(macProducts.m2)}>{macProducts.m2}</button>
+                <button type="button" title="click to place your order" onClick={() => handleClick(macProducts.m2pro)}>{macProducts.m2pro}</button>
 
             </div>
             <h1>Your choosed model {model}</h1>

@@ -12,3 +12,9 @@
 .container {
   padding: 10px;
 }
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  
+}

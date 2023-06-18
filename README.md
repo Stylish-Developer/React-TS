@@ -44,3 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## NOTE:
+
+useState in typescript topic also workouted with in this same development branch. check it out. Don't miss it :-)
